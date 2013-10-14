@@ -1,0 +1,48 @@
+Springsource tool suite
+
+http://download.springsource.com/release/STS/3.4.0/dist/e4.3/spring-tool-suite-3.4.0.RELEASE-e4.3.1-win32-installer.exe
+
+Git
+
+http://git-scm.com/download/win
+
+https://msysgit.googlecode.com/files/Git-1.8.4-preview20130916.exe
+
+Apache Ant
+
+http://ant.apache.org/bindownload.cgi
+
+Apache Ivy
+
+http://ant.apache.org/ivy/download.cgi
+
+Firefox
+
+http://www.mozilla.org/en-US/firefox/new/
+
+Portable Eclipse
+
+http://portableapps.com/node/37368
+
+Portable 7zip
+
+http://portableapps.com/apps/utilities/7-zip_portable
+
+Portable JDK
+
+http://portableapps.com/apps/utilities/java_portable
+
+
+
+
+
+set WORKSPACE_HOME=c:\ws
+
+md %WORKSPACE_HOME%
+
+set PATH=%PATH%;%WORKSPACE_HOME%\git184\bin
+
+set JAVA_HOME=%WORKSPACE_HOME%\jdk7
+
+set PATH=%JAVA_HOME%\bin;%PATH%
+

@@ -1,0 +1,30 @@
+<ivy-module version="2.0">
+
+<!-- 
+check here
+http://ebr.springsource.com/repository/app/bundle/version/detail?name=org.springframework.web.servlet&version=3.2.3.RELEASE
+ -->
+
+    <info organisation="org.apache" module="hello-ivy"/>
+    <dependencies>
+        <dependency org="commons-lang" 
+        	name="commons-lang" rev="2.0"/>
+        <dependency org="commons-cli" 
+        	name="commons-cli" rev="1.0"/>
+   		   	
+	   	<!-- 
+	   	http://forum.spring.io/forum/spring-projects/web/96488-spring-mvc-as-ivy-s-dependencies
+	   	 -->
+		   	
+		   	<!-- 
+	   	<dependency org="org.springframework" 
+	   		name="spring-webmvc" 
+	   		rev="3.0.+" 
+	   		conf="default->default"/>
+	   		 -->
+<dependency org="org.springframework" 
+	   		name="spring-webmvc" 
+	   		rev="3.1.1.RELEASE" 
+	   		conf="default"/>	   		 
+    </dependencies>
+</ivy-module>

@@ -1,0 +1,7 @@
+figure out strict dependencies
+
+http://ebr.springsource.com/repository/app/bundle/version/detail?name=org.springframework.web.servlet&version=3.2.3.RELEASE
+
+next steps - break down to component modules
+
+http://ant.apache.org/ivy/history/latest-milestone/tutorial/conf.html
